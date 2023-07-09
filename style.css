@@ -127,3 +127,14 @@ body{
         font-size: 2rem;
     }
 }
+@media (max-width: 320px) {
+    .card {
+        margin: 50px auto;
+        width: 95%;
+    }
+    .search input{
+        width: 50%;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
