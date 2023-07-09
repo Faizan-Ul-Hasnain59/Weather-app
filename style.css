@@ -97,6 +97,17 @@ body{
     }
 }
 
+@media (max-width: 520px) {
+    .card {
+        margin: 50px auto;
+        width: 95%;
+    }
+    .search input{
+        width: 10%;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
 @media (max-width: 576px) {
     .card {
         margin: 50px auto;
@@ -133,7 +144,7 @@ body{
         width: 95%;
     }
     .search input{
-        width: 50%;
+        width: 10%;
         font-size: 1rem;
         font-weight: 500;
     }
